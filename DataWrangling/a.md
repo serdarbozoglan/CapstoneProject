@@ -25,6 +25,8 @@ We checked for duplication and confirmed we did not have any duplicate values.
 
 ## 3. Going Over Data Points for Every Feature
 
+We examined every feature of dataset in terms of data sanity. Some columns were regarded as unnecessary for cancellation prediction and were dropped. Some other columns belonged to actual happened flights and those columns were also dropped. Some columns were dropped after EDA and those are the columns dropped in total `[LongestAddGTime, TotalAddGTime, FirstDepTime, CancellationCode, LateAircraftDelay, SecurityDelay, NASDelay, WeatherDelay, CarrierDelay, Year, Quater, Month, DayofMonth, DayOfWeek, FlightDate, OriginCityName, OriginState, DestCityName, DestState, CRSDepTime, DepTime, DepDelay, DepDel15, DepartureDelayGroups, DepTimeBlk, WheelsOff, WheelOn, TaxiIn, CRSArrTime, ArrTime, AirTime, ArrDelay, ArrDelayMinutes, ArrDel15, ArrivalDelayGroups, ArrTimeBlk, ActualElapsedTime, Company, Distance]`
+
 ## 4. Cleansing Outliers
 
 ## 5. Getting Rid of Null/Missing Values
