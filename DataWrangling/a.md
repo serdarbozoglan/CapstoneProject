@@ -5,7 +5,7 @@ The steps I follwed through data wranling part of the project shown below:
 1. Converting data types
 2. Checking duplicating values
 3. Going over data points for every feature
-4. Cleaning Outliers
+4. Cleansing Outliers
 5. Getting rid of null/missing values 
 6. Feature Enginerring
 
@@ -62,6 +62,6 @@ non-cancelled. In this context,  mean of cancelled flights was used to impute th
 
 ### B. Checking Correlated Features:
 
-After checking how correlated `Distance` and `Scheduled Elapsed Time [CRSElapsedTime]`, we deduced to drop Distance feature.
+After checking how correlated `Distance` and `Scheduled Elapsed Time [CRSElapsedTime]`, we decided to drop Distance feature.
 
 
