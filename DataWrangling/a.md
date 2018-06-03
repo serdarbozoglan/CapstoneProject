@@ -1,10 +1,36 @@
-# Project Title
+# Data Wrangling
 
-One Paragraph of project description goes here
+The steps I follwed through data wranling part of the project shown below:
 
-## Getting Started
+1. Converting data types
+2. Checking duplicating values
+3. Going over data points for every feature
+4. Cleaning Outliers
+5. Getting rid of null/missing values 
+6. Feature Enginerring
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## 1. Converting Data Types
+
+  ### A. DateTime Object: 
+  
+  In the original dataset date time feature were saved as object/string, we changed those columns into data time object.
+
+  ### B. Integer :
+  
+  Target column (Cancelled) was type of float, we converted it into integer.
+
+## 2. Checking Duplicating Values
+
+We checked for duplication and confirmed we did not have any duplicate values.
+
+## 3. Going Over Data Points for Every Feature
+
+## 4. Cleansing Outliers
+
+## 5. Getting Rid of Null/Missing Values
+
+## 6. Feature Engineering
+
 
 ### Prerequisites
 
