@@ -1,10 +1,10 @@
-FLIGHT CANCELLATION PREDICTION
+## FLIGHT CANCELLATION PREDICTION
    
-The Problem
+## The Problem
 
 Predicting Cancellation of Domestic Flights in the USA. Flight cancellation is a rare event but a big concern for many people/organization. Because if you have a flight, most probably all other your plans will be based on your arrival to the destination. Assume you have a holiday plan in LA, you booked your hotel, you rented your car, you made a reservation for an activity etc. But when you arrive the EWX airport you released that your flight is cancelled. Then you have to alter all your plans due to this unexpexted rare event . It is needless to say you would have taken necessary precautions if you had known your flight’s cancellation in advance. Definitely there are many factors which may result in those cancellations such as origin and destination airport location, airline company, time of flight etc. In this study we will propose a model to predict flight cancellations for US domestic flights at 20 most used airports in the USA.
 
-Who Might Care :
+## Who Might Care :
 
 a. Travellers : Flight cancellations have a huge impact on whoever will have a flight trip, so travellers definitely can care cancellations.
 
@@ -18,7 +18,7 @@ e. Hotels : Even hotels, espacially located nearby airports (destination) may be
 
 All those shareholders may be affected because of flight cancellations. To minimize the negative effect of cancellation by predicting those cancellations we will build some ML algortihms.
 
-Data Set :
+## Data Set :
 
 a. The data has been obtained from the "Bureau of Transportation Statisitcs" (https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time.) which allows to download the flight data monthly at a time. This data contains information about flights and their on-time performance, including date of flight, carrier company, origin and destination airports, flight duration, flight distance, delay, cancellation, diversion etc.
 
@@ -32,7 +32,7 @@ e. Target Feature is 'Cancelled'. Since it takes 1 for cancelled flights and 0 f
 
 f. Although the flight cancellations may results from bad weather conditions as well, in this study weather conditions will not be in our scope.
 
-Machine Learning Aspect
+## Machine Learning Aspect
 
 1. We have labeled data and target fetaure is a binary variable so this is a classification problem.
 
